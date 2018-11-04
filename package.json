@@ -1,0 +1,14 @@
+{
+  "name": "google_prep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "google_docs_debugger.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}

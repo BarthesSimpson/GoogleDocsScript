@@ -1,4 +1,4 @@
-const FUNCTION_REGEX = /@func:([\s\S]*)@endFunc/g
+const FUNCTION_REGEX = /@func:([^]*)@endFunc/g
 const TEST_REGEX = /@test:(.*)@endTest/g
 
 function printIfTestCase(node) {
@@ -107,7 +107,7 @@ function addPythonConsole() {
   page.appendChild(iframe)
 }
 
-addTestRunner()
+// addTestRunner()
 // addPythonConsole()
 
 module.exports = {
